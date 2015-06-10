@@ -46,9 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Behaviours\CheckpointBehaviour.cs" />
      <Compile Include="Assets\Scripts\Camera\ScaleToCamera.cs" />
      <Compile Include="Assets\Scripts\Car Scripts\PlayerCamera.cs" />
      <Compile Include="Assets\Scripts\Car Scripts\Player_Input_Manager.cs" />
+     <Compile Include="Assets\Scripts\Managers\RaceManager.cs" />
      <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
      <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
