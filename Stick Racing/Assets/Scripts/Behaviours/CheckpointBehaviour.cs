@@ -5,7 +5,7 @@ namespace UnityStandardAssets.Vehicles.Car
 {
 	public class CheckpointBehaviour : MonoBehaviour {
 
-		[SerializeField] private int CheckpointID;
+		public int CheckpointID;
 		[SerializeField] private RaceManager RM_Script;
 		
 		// Use this for initialization
